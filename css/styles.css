@@ -94,3 +94,131 @@ ul {
     background: var(--iris);
     text-align: center;
 }
+
+.section-advantages {
+    text-align: center;
+}
+
+.advantages-strategy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 120px;
+    margin-right: 24px;
+    margin-left: 24px;
+    width: 264px;
+    height: 104px;
+}
+
+.advantages-strategy-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.advantages-strategy-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.advantages-punctuality {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 120px;
+    margin-right: 24px;
+    margin-left: 24px;
+    width: 264px;
+    height: 104px;
+}
+
+.advantages-punctuality-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.advantages-punctuality-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.advantages-diligence {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 120px;
+    margin-right: 24px;
+    margin-left: 24px;
+    width: 264px;
+    height: 104px;
+}
+
+.advantages-diligence-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.advantages-diligence-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.advantages-technologies {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:8px;
+    margin-top: 120px;
+    margin-right: 156px;
+    margin-left: 24px;
+    width: 264px;
+    height: 104px;
+}
+
+.advantages-technologies-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.advantages-strategy-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
