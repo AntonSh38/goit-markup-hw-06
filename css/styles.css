@@ -1,0 +1,13 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif ;
+    color: black;
+    background: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
