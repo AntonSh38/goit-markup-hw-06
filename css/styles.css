@@ -2,7 +2,21 @@ body {
     font-family: "Roboto", "Raleway", sans-serif ;
     color: black;
     background: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
+
+.subtitle {
+    font-weight: 500;
+}
+
+.strong-text {
+    font-weight: 700; 
+}
+
+
 
 a {
     text-decoration: none;
@@ -10,4 +24,73 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+.header-nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    width: 115px;
+    height: 24px;
+}
+
+.header-nav-scroll {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 261px;
+    height: 24px;
+}
+
+.address-scroll-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.address-scroll-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.section-for-busines {
+    width: 1440px;
+    height: 600px;
+    background: var(--navy-blue);
+}
+
+.section-for-busines-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.section-for-busines-but {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    text-align: center;
 }
