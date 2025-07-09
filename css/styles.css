@@ -1,7 +1,7 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif ;
-    color: black;
-    background-color: var(--white);
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -14,23 +14,25 @@ ul {
 }
 
 .header-nav-logo {
-    display: flex;
-    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    width: 115px;
-    height: 24px;
+}
+
+.span-logo {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .header-nav-list {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    width: 261px;
-    height: 24px;
 }
 
 .address-list-email {
@@ -66,16 +68,7 @@ ul {
 }
 
 .section-for-busines-but {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: var(--iris);
     text-align: center;
 }
@@ -85,11 +78,7 @@ ul {
 }
 
 .advantages-strategy {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .advantages-strategy-title {
@@ -111,11 +100,7 @@ ul {
 }
 
 .advantages-punctuality {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .advantages-punctuality-title {
@@ -137,11 +122,7 @@ ul {
 }
 
 .advantages-diligence {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .advantages-diligence-title {
@@ -163,11 +144,7 @@ ul {
 }
 
 .advantages-technologies {
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap:8px;
 }
 
 .advantages-technologies-title {
@@ -203,14 +180,7 @@ ul {
 }
 
 .section-team-list-product-designer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);     
+    justify-content: center;   
     background: var(--white);
 }
 
@@ -235,38 +205,17 @@ ul {
 }
 
 .section-team-list-front-developer {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
 }
 
 .section-team-list-marketing {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
 }
 
 .section-team-list-ui-designer {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
 }
 
@@ -281,15 +230,21 @@ ul {
 }
 
 .basement {
-    background: var(--navy-blue);
+    background-color: #2e2f42;
 }
 
 .basement-logo {
-    display: flex;
-    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
+}
+
+.basement-logo-span {
+    color: #f4f4fd;
 }
 
 .basement-text {
@@ -298,6 +253,6 @@ ul {
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud);
     font-family: var(--font-family);
+    color: #F4F4FD;
 }
