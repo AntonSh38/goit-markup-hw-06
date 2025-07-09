@@ -23,7 +23,7 @@ ul {
     height: 24px;
 }
 
-.header-nav-scroll {
+.header-nav-list {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -33,7 +33,7 @@ ul {
     height: 24px;
 }
 
-.address-scroll-email {
+.address-list-email {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -42,7 +42,7 @@ ul {
     color: var(--slate);
 }
 
-.address-scroll-tel {
+.address-list-tel {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -52,8 +52,6 @@ ul {
 }
 
 .section-for-busines {
-    width: 1440px;
-    height: 600px;
     background-color: var(--navy-blue);
 }
 
@@ -92,8 +90,6 @@ ul {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: 264px;
-    height: 104px;
 }
 
 .advantages-strategy-title {
@@ -120,8 +116,6 @@ ul {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: 264px;
-    height: 104px;
 }
 
 .advantages-punctuality-title {
@@ -148,8 +142,6 @@ ul {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: 264px;
-    height: 104px;
 }
 
 .advantages-diligence-title {
@@ -176,8 +168,6 @@ ul {
     justify-content: flex-start;
     flex-direction: column;
     gap:8px;
-    width: 264px;
-    height: 104px;
 }
 
 .advantages-technologies-title {
@@ -198,3 +188,116 @@ ul {
     color: var(--slate);
 }
 
+.section-team {
+    background-color: var(--cloud);
+}
+
+.section-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+.section-team-list-product-designer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);     
+    background: var(--white);
+}
+
+.section-team-list-product-designer-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+.section-team-list-product-designer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--slate);
+}
+
+.section-team-list-front-developer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+}
+
+.section-team-list-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+}
+
+.section-team-list-ui-designer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+}
+
+.section-portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+.basement {
+    background: var(--navy-blue);
+}
+
+.basement-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.basement-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+    font-family: var(--font-family);
+}
