@@ -35,188 +35,313 @@ ul {
     justify-content: flex-start;
 }
 
-.address-list-email {
+.header-nav-list-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-nav-list-studio:hover,
+.header-nav-list-studio:focus {
+    color: #404bbf;
+}
+
+.header-nav-list-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-nav-list-portfolio:hover,
+.header-nav-list-portfolio:focus {
+    color: #404bbf;
+}
+
+.header-nav-list-contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-nav-list-contacts:hover,
+.header-nav-list-contacts:focus {
+    color: #404bbf;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-list-email {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.address-list-tel {
+.header-address-list-email:hover,
+.header-address-list-email:focus {
+    color: #404bbf;
+}
+
+.header-address-list-tel {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.section-for-busines {
-    background-color: var(--navy-blue);
+.header-address-list-tel:hover,
+.header-address-list-tel:focus {
+    color: #404bbf;
 }
 
-.section-for-busines-title {
+.main-section-for-busines {
+    background-color: #2e2f42;
+}
+
+.main-section-for-busines-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
+    color: #ffffff;
 }
 
-.section-for-busines-but {
-    justify-content: flex-start;
-    background-color: var(--iris);
+.main-section-for-busines-but {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-section-for-busines-but:hover,
+.main-section-for-busines-but:focus {
+    background-color: #404BBF;
+}
+
+.main-section-advantages {
     text-align: center;
 }
 
-.section-advantages {
-    text-align: center;
-}
-
-.advantages-strategy {
+.main-section-advantages-title-list-strategy {
     justify-content: flex-start;
 }
 
-.advantages-strategy-title {
+.main-section-advantages-title-list-strategy-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
-.advantages-strategy-text {
+.main-section-advantages-title-list-strategy-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.advantages-punctuality {
+.main-section-advantages-title-list-punctuality {
     justify-content: flex-start;
 }
 
-.advantages-punctuality-title {
+.main-section-advantages-title-list-punctuality-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
-.advantages-punctuality-text {
+.main-section-advantages-title-list-punctuality-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.advantages-diligence {
+.main-section-advantages-title-list-diligence {
     justify-content: flex-start;
 }
 
-.advantages-diligence-title {
+.main-section-advantages-title-list-diligence-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
-.advantages-diligence-text {
+.main-section-advantages-title-list-diligence-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.advantages-technologies {
+.main-section-advantages-title-list-technologies {
     justify-content: flex-start;
 }
 
-.advantages-technologies-title {
+.main-section-advantages-title-list-technologies-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
-.advantages-strategy-text {
+.main-section-advantages-title-list-technologies-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.section-team {
-    background-color: var(--cloud);
+.main-section-team {
+    background-color: #F4F4FD;
 }
 
-.section-team-title {
+.main-section-team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.section-team-list-product-designer {
+.main-section-team-list-product-designer {
     justify-content: center;   
-    background: var(--white);
+    background-color: #FFFFFF;
 }
 
-.section-team-list-product-designer-title {
+.main-section-team-list-product-designer-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
-.section-team-list-product-designer-text {
+.main-section-team-list-product-designer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--slate);
+    color: #434455;
 }
 
-.section-team-list-front-developer {
+.main-section-team-list-front-developer {
     justify-content: center;
-    background: var(--white);
+    background-color: #FFFFFF;
 }
 
-.section-team-list-marketing {
-    justify-content: center;
-    background: var(--white);
+.main-section-team-list-front-developer-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
-.section-team-list-ui-designer {
+.main-section-team-list-front-developer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.main-section-team-list-marketing {
     justify-content: center;
-    background: var(--white);
+    background-color: #FFFFFF;
+}
+
+.main-section-team-list-marketing-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.main-section-team-list-marketing-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.main-section-team-list-ui-designer {
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.main-section-team-list-ui-designer-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.main-section-team-list-ui-designer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 .section-portfolio-title {
