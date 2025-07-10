@@ -81,7 +81,6 @@ ul {
 .header-address-list-email {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -95,7 +94,6 @@ ul {
 .header-address-list-tel {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -113,7 +111,6 @@ ul {
 .main-section-for-busines-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
@@ -148,7 +145,6 @@ ul {
 .main-section-advantages-title-list-strategy-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -157,7 +153,6 @@ ul {
 .main-section-advantages-title-list-strategy-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -170,7 +165,6 @@ ul {
 .main-section-advantages-title-list-punctuality-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -179,7 +173,6 @@ ul {
 .main-section-advantages-title-list-punctuality-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -192,7 +185,6 @@ ul {
 .main-section-advantages-title-list-diligence-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -201,7 +193,6 @@ ul {
 .main-section-advantages-title-list-diligence-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -214,7 +205,6 @@ ul {
 .main-section-advantages-title-list-technologies-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -223,7 +213,6 @@ ul {
 .main-section-advantages-title-list-technologies-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -236,7 +225,6 @@ ul {
 .main-section-team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
@@ -252,7 +240,6 @@ ul {
 .main-section-team-list-product-designer-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
@@ -262,7 +249,6 @@ ul {
 .main-section-team-list-product-designer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -277,7 +263,6 @@ ul {
 .main-section-team-list-front-developer-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
@@ -287,7 +272,6 @@ ul {
 .main-section-team-list-front-developer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -302,7 +286,6 @@ ul {
 .main-section-team-list-marketing-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
@@ -312,7 +295,6 @@ ul {
 .main-section-team-list-marketing-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -327,7 +309,6 @@ ul {
 .main-section-team-list-ui-designer-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
@@ -337,21 +318,116 @@ ul {
 .main-section-team-list-ui-designer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
 
-.section-portfolio-title {
+.main-section-portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.main-section-portfolio-list-banking-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-portfolio-list-banking-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-section-portfolio-list-cashless-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-portfolio-list-cashless-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-section-portfolio-list-meditation-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-portfolio-list-meditation-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-section-portfolio-list-taxi-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-portfolio-list-taxi-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-section-portfolio-list-screen-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-portfolio-list-screen-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-section-portfolio-list-online-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-portfolio-list-online-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .basement {
@@ -375,7 +451,6 @@ ul {
 .basement-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-family: var(--font-family);
