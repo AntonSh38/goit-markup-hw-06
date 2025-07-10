@@ -53,7 +53,8 @@ ul {
     font-style: normal;
 }
 
-.header-address-list-email {
+
+.header-address-list-contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -61,21 +62,8 @@ ul {
     color: #434455;
 }
 
-.header-address-list-email:hover,
-.header-address-list-email:focus {
-    color: #404bbf;
-}
-
-.header-address-list-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-address-list-tel:hover,
-.header-address-list-tel:focus {
+.header-address-list-contacts:hover,
+.header-address-list-contacts:focus {
     color: #404bbf;
 }
 
