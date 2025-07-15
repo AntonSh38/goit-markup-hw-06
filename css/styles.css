@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  font-size: 16px;
 }
 
 a {
@@ -26,6 +27,14 @@ h6 {
 
 p {
   margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -102,7 +111,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .header-address-list-contacts:hover,
@@ -185,7 +193,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .main-section-advantages-title-list-punctuality {
@@ -236,7 +243,6 @@ p {
 
 .main-section-team-list-product-designer {
   justify-content: center;
-  background-color: #ffffff;
 }
 
 .main-section-team-list-product-designer-title {
@@ -254,7 +260,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 .main-section-portfolio-title {
@@ -280,7 +285,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .basement {
