@@ -44,6 +44,7 @@ img {
   flex-direction: row;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -118,11 +119,9 @@ img {
   color: #404bbf;
 }
 
-.container-busines {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: #2e2f42;
+.main-section-for-busines {
+  padding: 188px 0;
+  background: #2e2f42;
 }
 
 .main-section-for-busines-title {
@@ -133,6 +132,7 @@ img {
   text-align: center;
   color: #ffffff;
   margin-top: 188px;
+  max-width: 496px;
 }
 
 .main-section-for-busines-but {
@@ -152,6 +152,11 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 10px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
 }
 
 .main-section-for-busines-but:hover,
