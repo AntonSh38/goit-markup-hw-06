@@ -204,6 +204,15 @@ p {
   background-color: #f4f4fd;
 }
 
+.container-team {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 120px 156px 120px 156px;
+  text-align: start;
+  padding-bottom: 120px;
+}
+
 .main-section-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -212,6 +221,17 @@ p {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+.main-section-team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .main-section-team-list-product-designer {
