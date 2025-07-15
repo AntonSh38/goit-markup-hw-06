@@ -148,6 +148,7 @@ img {
   height: 56px;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .main-section-for-busines-but:hover,
@@ -155,7 +156,25 @@ img {
   background-color: #404bbf;
 }
 
-.container-advantages {
+.main-section-advantages {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -174,6 +193,7 @@ img {
 
 .main-section-advantages-title-list-strategy {
   justify-content: flex-start;
+  width: calc((100% - 72px) / 4);
 }
 
 .main-section-advantages-title-list-strategy-title {
@@ -182,6 +202,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .main-section-advantages-title-list-strategy-text {
@@ -189,18 +210,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.main-section-advantages-title-list-punctuality {
-  justify-content: flex-start;
-}
-
-.main-section-advantages-title-list-diligence {
-  justify-content: flex-start;
-}
-
-.main-section-advantages-title-list-technologies {
-  justify-content: flex-start;
 }
 
 .main-section-team {
