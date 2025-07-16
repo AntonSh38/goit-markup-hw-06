@@ -41,17 +41,13 @@ img {
 }
 
 .container {
-  width: 1168px;
+  display: flex;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
 .header-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  margin: 24px 76px 24px 156px;
 }
 
 .header-logo {
