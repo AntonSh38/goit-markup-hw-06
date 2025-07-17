@@ -302,8 +302,12 @@ img {
   padding: 100px 0;
   background: #2e2f42;
 }
-.footer-logo {
+
+.container-footer-logo {
   display: inline-block;
+}
+
+.footer-logo {
   margin-bottom: 16px;
 
   font-size: 18px;
@@ -312,6 +316,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .footer-logoaccent {
   font-size: 18px;
   line-height: 1.16667;
@@ -319,6 +324,7 @@ img {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
 .footer-text {
   max-width: 264px;
   font-weight: 400;
