@@ -108,6 +108,7 @@ img {
 .address-item:focus {
   color: #404bbf;
 }
+/* #endregion */
 
 /* #region busines */
 .busines {
@@ -148,6 +149,7 @@ img {
 .busines-btn:focus {
   background-color: #404bbf;
 }
+/* #endregion */
 
 /* #region advantages */
 .advantages {
@@ -195,6 +197,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion */
 
 /* #region team */
 .team {
@@ -245,6 +248,7 @@ img {
   text-align: center;
   color: #434455;
 }
+/* #endregion */
 
 /* #region portfolio */
 .portfolio {
@@ -296,6 +300,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion */
 
 /* #region footer */
 .footer {
@@ -309,6 +314,7 @@ img {
 
 .footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
 
   font-size: 18px;
   line-height: 1.17;
@@ -332,3 +338,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+/* #endregion */
