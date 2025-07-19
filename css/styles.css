@@ -88,6 +88,20 @@ img {
   display: block;
 }
 
+.header-item.actvite {
+  color: #404bbf;
+}
+
+.header-item.actvite::after {
+  content: '';
+
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
+}
+
 .header-item:hover,
 .header-item:focus {
   color: #404bbf;
@@ -198,6 +212,22 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 264px;
+  height: 112px;
+
+  padding: 24px 100px;
+  margin-bottom: 8px;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
 .advantages-subtitle {
   margin-bottom: 8px;
   font-weight: 500;
@@ -262,6 +292,31 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team-social-list {
+  display: flex;
+  align-items: centr;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 24px;
+}
+.team-social-item {
+}
+.social-link {
+}
+.social-icon {
+  display: flex;
+  align-items: centr;
+  justify-content: centr;
+
+  width: 16px;
+  height: 16px;
+
+  border: 1px solid #8e8f99;
+  border-radius: 50%;
+  background-color: #f4f4fd;
+  background-color: #4d5ae5;
 }
 /* #endregion */
 
