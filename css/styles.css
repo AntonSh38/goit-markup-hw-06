@@ -313,8 +313,16 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+
+.team-social-item:hover,
+.team-social-item:hover {
+  background-color: #404bbf;
+  border: 1px solid #404bbf;
+}
+
 .social-link {
 }
+
 .social-icon {
   width: 16px;
   height: 16px;
@@ -432,6 +440,7 @@ img {
   margin-top: 8px;
   gap: 16px;
 }
+
 .footer-social-item {
   display: flex;
   flex-wrap: wrap;
@@ -445,8 +454,16 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+
+.footer-social-item:hover,
+.footer-social-item:focus {
+  background-color: #31d0aa;
+  border: 1px solid #31d0aa;
+}
+
 .footer-social-link {
 }
+
 .footer-social-icon {
   width: 24px;
   height: 24px;
