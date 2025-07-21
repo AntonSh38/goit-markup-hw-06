@@ -82,6 +82,7 @@ img {
 }
 
 .header-item {
+  position: relative;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -95,6 +96,9 @@ img {
 }
 
 .header-item.actvite::after {
+  position: absolute;
+  bottom: 0;
+
   content: '';
 
   display: block;
