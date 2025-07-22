@@ -101,7 +101,7 @@ img {
 
 .header-item.actvite::after {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 
   content: '';
 
@@ -134,7 +134,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:hover,
@@ -391,7 +391,8 @@ img {
   background-color: #4d5ae5;
   width: 100%;
   height: 100%;
-  padding: 40px 32px 164px;
+  padding: 40px 32px;
+
   position: absolute;
   top: 0;
   left: 0;
