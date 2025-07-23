@@ -531,22 +531,37 @@ img {
   display: block;
   width: 264px;
   height: 40px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
 
   margin-right: 24px;
+}
+
+.footer-subscribe-input::placeholder {
+  color: #ffffff;
 }
 .footer-subscribe-wrapper {
   display: flex;
   align-items: flex-start;
+  gap: 24px;
 }
 
 .footer-subscribe-btn {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 16px;
   border: none;
+
+  min-width: 165px;
+  height: 40px;
 
   font-weight: 500;
   font-size: 16px;
@@ -558,6 +573,10 @@ img {
   padding: 8px 24px;
   background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.footer-subscribe-btn-icon {
+  margin-left: 16px;
 }
 
 /* #endregion */
