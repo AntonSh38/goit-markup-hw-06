@@ -516,8 +516,6 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-subscribe {
-}
 .footer-subscribe-text {
   font-weight: 500;
   font-size: 16px;
@@ -663,9 +661,6 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-form {
-}
-
 .modal-form-wrapper {
   margin-bottom: 8px;
 }
@@ -740,9 +735,6 @@ img {
 
 .modal-form-wrapper-checkbox {
   margin-bottom: 24px;
-}
-
-.modal-form-checkbox-input {
 }
 
 .modal-form-checkbox-lable {
