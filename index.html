@@ -17,10 +17,17 @@
 
 <body>
     <!-- #region header -->
-    <header class="header hide">
+    <header class="header">
         <div class="container header-container">
             <nav class="header-nav">
-                <a class="header-logo" href="./index.html">Web<span class="header-logoaccent">Studio</span></a>
+                <a class="header-logo" href="./index.html">Web<span class="header-logoaccent">Studio</span>
+                </a>
+                <button class="mobile-menu-btn" type="button" aria-label="Mobile menu button">
+                    <svg class="mobile-menu-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+
                 <ul class="header-list">
                     <li><a class="header-item actvite" href="./index.html">Studio</a></li>
                     <li><a class="header-item" href="">Portfolio</a></li>
@@ -39,7 +46,7 @@
 
     <main>
         <!-- #region hero -->
-        <section class="hero section hide">
+        <section class="hero section">
             <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
                 <button class="hero-btn" type="button">Order Service</button>
@@ -47,7 +54,7 @@
         </section>
 
         <!-- #region advantages -->
-        <section class="advantages section hide">
+        <section class="advantages section">
             <div class="container advantages-container">
                 <h2 class="visually-hidden">Our Advantages</h2>
                 <ul class="advantages-list">
@@ -106,7 +113,7 @@
         </section>
 
         <!-- #region team -->
-        <section class="team section hide">
+        <section class="team section">
             <div class="container team-container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
@@ -368,7 +375,7 @@
     </main>
 
     <!-- #region footer -->
-    <footer class="footer hide">
+    <footer class="footer">
 
         <div class="container footer-container">
             <div class="footer-info">
@@ -496,6 +503,66 @@
                 <button class="modal-btn-form" type="submit">Send</button>
             </form>
         </div>
+    </div>
+
+    <div class="mobile-menu">
+        <button class="mobile-menu-btn">
+            <svg class="mobile-menu-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="#">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="#">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="#">Contacts</a>
+            </li>
+        </ul>
+
+        <ul class="meobil-menu-contacts contacts">
+            <li class="contacts-item">
+                <a href="tel:110001111111" class="contacts-link">+11 (000) 111-11-11</a>
+            </li>
+            <li class="contacts-item">
+                <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a>
+            </li>
+        </ul>
+
+        <ul class="meobil-social-list">
+            <li class="meobil-social-item">
+                <a class="meobil-social-link" href="">
+                    <svg class="meobil-social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="meobil-social-item">
+                <a class="meobil-social-link" href="">
+                    <svg class="meobil-social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="meobil-social-item">
+                <a class="meobil-social-link" href="">
+                    <svg class="meobil-social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="meobil-social-item">
+                <a class="meobil-social-link" href="">
+                    <svg class="meobil-social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </div>
 </body>
 
